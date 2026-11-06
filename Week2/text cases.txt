@@ -1,0 +1,175 @@
+# STUDENT GRADE CALCULATOR - TEST CASES
+**Python Internship - Week 2**
+
+## PROJECT DESCRIPTION:
+This project calculates a student's grade based on marks entered by the user. It validates input and displays an encouraging message.
+
+---
+
+## TEST CASE 1: Grade A - Successful Result
+
+Student Name: Gayatri  
+Input Marks: 95
+
+**Expected Output:**
+```text
+RESULT FOR GAYATRI
+Marks: 95/100
+Grade: A
+Message: Excellent work! Keep shining!
+```
+
+Actual Result: PASS  
+The program displayed the correct grade and message.  
+Screenshot: Successful result screenshot.
+
+---
+
+## TEST CASE 2: Invalid Marks Above 100
+
+Student Name: Gayatri  
+Input Marks: 120
+
+**Expected Output:**
+```text
+Invalid marks! Enter marks between 0 and 100.
+Enter marks (0-100):
+```
+
+Actual Result: PASS  
+The program rejected invalid marks and asked again.  
+Screenshot: Invalid marks screenshot.
+
+---
+
+## TEST CASE 3: Non-Numeric Input
+
+Student Name: Gayatri  
+Input Marks: abc
+
+**Expected Output:**
+```text
+Invalid input! Please enter numbers only.
+Enter marks (0-100):
+```
+
+Actual Result: PASS  
+The program rejected non-numeric input and asked again.  
+Screenshot: Invalid input screenshot.
+
+---
+
+## TEST CASE 4: Grade B
+
+Input Marks: 85
+
+Expected Output:
+```text
+Grade: B
+Message: Very Good! Keep it up!
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 5: Grade C
+
+Input Marks: 75
+
+Expected Output:
+```text
+Grade: C
+Message: Good effort! Keep practising!
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 6: Grade D
+
+Input Marks: 65
+
+Expected Output:
+```text
+Grade: D
+Message: You passed! Work hard to improve!
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 7: Grade F
+
+Input Marks: 45
+
+Expected Output:
+```text
+Grade: F
+Message: Don't give up. Learn and try again!
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 8: Maximum Marks
+
+Input Marks: 100
+
+Expected Output:
+```text
+Grade: A
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 9: Minimum Marks
+
+Input Marks: 0
+
+Expected Output:
+```text
+Grade: F
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 10: Negative Marks
+
+Input Marks: -10
+
+Expected Output:
+```text
+Invalid marks! Enter marks between 0 and 100.
+```
+
+Status: To be tested.
+
+---
+
+## TEST CASE 11: Decimal Marks
+
+Input Marks: 84.5
+
+Expected Output:
+```text
+Grade: B
+```
+
+Status: To be tested.
+
+---
+
+## CONCLUSION
+
+The Student Grade Calculator was tested with valid marks, marks above 100, and non-numeric input.
+
+The three tests shown in the screenshots passed successfully. Additional test cases are listed to verify all grade ranges, boundary values, and input validation.
+
